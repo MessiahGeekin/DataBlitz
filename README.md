@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/your-username/cross-platform-data-generator" alt="License">
+  <img src="https://img.shields.io/github/license/MessiahGeekin/DataBlitz" alt="License">
 </p>
 
 <h2>Prerequisites</h2>
