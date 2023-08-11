@@ -59,6 +59,10 @@
 
 <p>Contributions are welcome! If you have suggestions, bug reports, or improvements, please feel free to create a pull request.</p>
 
+<h2>Using WinPwnage</h2>
+
+<p>Please note that this project includes the use of WinPwnage, a tool designed for UAC bypass techniques. Ensure that you are using WinPwnage and any related techniques responsibly, ethically, and in compliance with applicable laws and regulations.</p>
+
 <h2>License</h2>
 
 <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
