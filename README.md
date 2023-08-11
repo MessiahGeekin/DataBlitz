@@ -61,7 +61,7 @@
 
 <h2>Using WinPwnage</h2>
 
-<p>Please note that this project includes the use of WinPwnage, a tool designed for UAC bypass techniques. Ensure that you are using WinPwnage and any related techniques responsibly, ethically, and in compliance with applicable laws and regulations.</p>
+<p>Please note that this project includes the use of WinPwnage, a tool designed for UAC bypass techniques.Any unethical use of this script is strictly discouraged. We will not be held accountable for any misuse of this tool. This script is intended for educational purposes only.</p>
 
 <h2>License</h2>
 

@@ -17,6 +17,7 @@ def tff():
     c = string.printable
     return "".join(random.choices(c, k=len(c))) * 1000
 
+
 def change_os():
     if os_name == "Windows":
         return "C:"
@@ -24,6 +25,7 @@ def change_os():
         return os.path.expanduser("~")
     else:
         print("Platform not supported.")
+
 
 def write_file(i):
     base_path = change_os()
@@ -41,6 +43,7 @@ def write_file(i):
             if os.path.getsize(filename) >= GB:
                 file.flush()
                 break
+
 
 def main():
     processes = []
